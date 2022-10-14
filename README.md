@@ -3,7 +3,7 @@
 Analysis of 12 stocks for the years 2017 and 2018
 
 ## Overview of Project
-Create a VBA scripting that calculates the performance over a year and the total daily Volumen for each of the 12 stocks and apply refactoring logic to the VBA code to run it more efficiently.
+Create a VBA scripting that calculates the performance over a year and the total daily Volumen for each of the 12 stocks and refactor the VBA code to reduce the computing requirements.
 
 ## Results
 
