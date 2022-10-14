@@ -1,15 +1,21 @@
 # All Stocks Analysis
-Analysis of 12 stocks for the year 2017 and 2018
+Analysis of 12 stocks for the years 2017 and 2018
 
 ## Overview of Project
-Create a VBA scripting that calculates the performance over a year and the total daily Volumen for each of the 12 stocks and apply refactoring logic to the VBA code to run more efficiently.
+Create a VBA scripting that calculates the performance over a year and the total daily Volumen for each of the 12 stocks and apply refactoring logic to the VBA code to run it more efficiently.
 
 ## Results
 
 ### 2017 vs 2018 All Stocks Result
 Comparing the results from 2017 and 2018 we can conclude that 2017 was a better year, we had all stocks performing positive except for TERP and in 2018 all stocks performed bad except for two, ENPH and RUN.
+![2017 All Stocks Results](https://github.com/ggalguera/stocks-analysis/blob/main/VBA_Challenge_2017_Table.png)
+![2018 All Stocks Results](https://github.com/ggalguera/stocks-analysis/blob/main/VBA_Challenge_2018_Table.png)
 
 ### Original Execution Time vs Refactoring Script Time
+The original execution time was more than half of a second for any year.
+![Script Run Time for the 2018 Analysis before Refactoring](https://github.com/ggalguera/stocks-analysis/blob/main/VBA_Challenge_2018_before.png)
+![Script Run Time for the 2017 Analysis before Refactoring](https://github.com/ggalguera/stocks-analysis/blob/main/VBA_Challenge_2017_before.png)
+After Refactoring the code ran in a 0.082 for 2017 and 0.074 for 2018.
 ![Script Run Time for the 2018 Analysis](https://github.com/ggalguera/stocks-analysis/blob/main/VBA_Challenge_2018.png)
 ![Script Run Time for the 2017 Analysis](https://github.com/ggalguera/stocks-analysis/blob/main/VBA_Challenge_2017.png)
 
