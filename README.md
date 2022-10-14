@@ -21,6 +21,7 @@ The original execution time was more than half of a second for any year.
 ![Script Run Time for the 2017 Analysis before Refactoring](https://github.com/ggalguera/stocks-analysis/blob/main/VBA_Challenge_2017_Before.png)
 
 After Refactoring the code ran in a 0.082 for 2017 and 0.074 for 2018.
+
 ![Script Run Time for the 2018 Analysis](https://github.com/ggalguera/stocks-analysis/blob/main/VBA_Challenge_2018.png)
 ![Script Run Time for the 2017 Analysis](https://github.com/ggalguera/stocks-analysis/blob/main/VBA_Challenge_2017.png)
 
