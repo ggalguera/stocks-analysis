@@ -1,1 +1,22 @@
-# stocks-analysis
+# All Stocks Analysis
+Analysis of 12 stocks for the year 2017 and 2018
+
+## Overview of Project
+Create a VBA scripting that calculates the performance over a year and the total daily Volumen for each of the 12 stocks and apply refactoring logic to the VBA code to run more efficiently.
+
+## Results
+
+### 2017 vs 2018 All Stocks Result
+Comparing the results from 2017 and 2018 we can conclude that 2017 was a better year, we had all stocks performing positive except for TERP and in 2018 all stocks performed bad except for two, ENPH and RUN.
+
+### Original Execution Time vs Refactoring Script Time
+![Script Run Time for the 2018 Analysis](https://github.com/ggalguera/stocks-analysis/blob/main/VBA_Challenge_2018.png)
+![Script Run Time for the 2017 Analysis](https://github.com/ggalguera/stocks-analysis/blob/main/VBA_Challenge_2017.png)
+
+## Summary
+
+### Advantages or disadvantages of refactoring code.
+The advantage of refactoring code makes a big difference when we need to maximize computing processing resources and reduce the processing time. A disadvantage can be that it requires more logical understanding of the computer processing method as well as it require programmer to find the best solution not only one solution.
+
+### Pros and cons that apply to refactoring the VBA script
+For the cons the refactored code required more critical thinking, the original code was comparing all 12 stocks with all 3012 lines, this method was easier to understand and code. On the other side the refactored code was harder to code and understand as it only checks one time every value of the column A and sequentially detect the last stock daily entry to jump to the next stock, with this method the computer does not waste resources checking multiple times the same data entry. 
