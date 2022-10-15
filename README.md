@@ -1,12 +1,12 @@
 
 # All Stocks Analysis
-Analysis of 12 stocks for the years 2017 and 2018
+Analysis of 12 stocks for the years 2017 and 2018.
 
 ## Overview of Project
 Create a VBA scripting that calculates the performance over a year and the total daily Volumen for each of the 12 stocks and refactor the VBA code to reduce the computing requirements.
 
 ## Results
-
+Year over year comparison and execution times.
 ### 2017 vs 2018 All Stocks Result
 Comparing the results from 2017 and 2018 we can conclude that 2017 was a better year, we had all stocks performing positive except for TERP and in 2018 all stocks performed bad except for two, ENPH and RUN.
 
@@ -31,4 +31,4 @@ After Refactoring the code ran in a 0.082 for 2017 and 0.074 for 2018.
 The advantage of refactoring code makes a big difference when we need to maximize computing processing resources and reduce the processing time. A disadvantage can be that it requires more logical understanding of the computer processing method as well as it require programmer to find the best solution not only one solution.
 
 ### Pros and cons that apply to refactoring the VBA script
-For the cons the refactored code required more critical thinking, the original code was comparing all 12 stocks with all 3012 lines, this method was easier to understand and code. On the other side the refactored code was harder to code and understand as it only checks one time every value of the column A and sequentially detect the last stock daily entry to jump to the next stock, with this method the computer does not waste resources checking multiple times the same data entry. 
+For the cons the refactored code required more critical thinking, the original code was comparing all 12 stocks with all 3012 lines, this method was easier to understand and code. On the other side the refactored code was harder to understand as it only checks one time every value of the column A and sequentially detect the last stock daily entry to jump to the next stock, with this method the computer does not waste resources checking multiple times the same data entry. One disadvantage also can be the data needs to be properly sorted in the same order as the tickers array, if this condition is not met the query will not return the correct result.
