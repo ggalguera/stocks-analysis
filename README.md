@@ -3,10 +3,11 @@
 Analysis of 12 stocks for the years 2017 and 2018.
 
 ## Overview of Project
-Create a VBA scripting that calculates the performance over a year and the total daily Volumen for each of the 12 stocks and refactor the VBA code to reduce the computing requirements.
+Create a VBA script that calculates the performance over a year and the total daily Volumen for each of the 12 stocks and refactor the VBA code to reduce the computing requirements.
 
 ## Results
-Year over year comparison and execution times.
+Year over year results comparison and refactored code execution times.
+
 ### 2017 vs 2018 All Stocks Result
 Comparing the results from 2017 and 2018 we can conclude that 2017 was a better year, we had all stocks performing positive except for TERP and in 2018 all stocks performed bad except for two, ENPH and RUN.
 
